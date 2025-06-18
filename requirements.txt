@@ -4,4 +4,3 @@ numpy==1.26.4
 scikit-learn==1.4.2
 pillow==10.3.0
 pywin32==306
-gunicorn==21.2.0
