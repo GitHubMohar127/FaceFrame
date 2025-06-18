@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recognize - Face Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>Mark Your Attendance</header>
+    <div class="container">
+        <img src="{{ url_for('video_feed_recognize') }}" />
+    </div>
+</body>
+</html>
